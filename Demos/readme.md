@@ -2,87 +2,125 @@
 
 ## Introduction Microsoft 365 Development
 
-- Microsoft 365 Overview & Services
-- Overview M365 Extension & Data Access Paterns
-- Why Client-Side Development (JavaScript / Typescript vs C# Customizations)
-- Overview PnP Framework
+-   Microsoft 365 Overview & Services
+-   Overview M365 Extension & Data Access Patterns
+-   Why Client-Side Development (JavaScript / Typescript vs C# Customizations)
+-   Overview PnP Framework
 
 ## Node-based Development using Visual Studio Code
 
-- Using Visual Studio Code, Extensions, Add-Ins
-- Understanding Node.js Role in modern Client Side Dev
-- The Web Stack Pattern, Node, Gulp, Yeoman, Webpack
-- Using Node Express
+-   Using Visual Studio Code, Extensions & Quickwins
+-   Understanding Node.js Role in modern Client Side Dev
+-   The Web Stack Pattern, Node, Gulp, Yeoman, Webpack
+-   Implementing Api's using Node Express
 
 ## Object Oriented JavaScript & Type Script
 
-- Visual Studio Extensions & Project Configurations
-- JavaScript vs TypeScript
-- Types, Enums Classes, Interfaces, Functions
-- ES6 Array Helpers & Utility Functions
-- Async Programming & Promises
-- Using 3rd Party Libraries in TypeScript
-- Ensuring Browser Compatibility using Babel, Shims and Polyfills
+-   JavaScript vs TypeScript
+-   Object Orientation, Classes, Constructor Functions 
+-   Immutability, Pure Functions and Object Cloning
+-   ES6 Array Helpers & Utility Functions (Destructuring assignments, Spread, ...)
+-   REST, Http Verbs, fetch and axios
+-   Promises & Async Await
+
+## Introduction to React for M365 Development
+
+-   Introduction to React
+-   Use Cases for React in SharePoint Development
+-   Understanding React Basics in a Standalone App
+-   Classes vs Functional Components
+-   Implementing Class based Components
+-   Implementing Functional Components
+-   Using Hooks: useState, useEffect, useCallback
+-   React CRUD (Create - Read - Update - Delete)
+-   Using Context to share Data between Components
+-   Understanding & Using Flexbox and CSS Grid
+-   Using Fluid UI React Controls
+-   Introduction to React Testing using Jest
 
 ## Introduction to Microsoft Identity
 
-- Introduction to Microsoft Identity
-- Microsoft Authentication Library - MSAL
-- Using MSAL in Node & External SPAs
+-   Introduction to Microsoft Identity
+-   App Registrations
+-   Microsoft Authentication Library - MSAL Getting Started
 
 ## Microsoft 365 & SharePoint Data Access
 
-- CSOM vs REST vs PnP Core JavaScript
-- REST and OData Overview
-- OData Queries and Expanding
-- Implementing CRUD Operation using REST for List & List Items
-- Expanding Complex Objects like Managed Metadata, Lookups, User
-- Using Client-Side Object Model - Context, Batching, Loading
-- Implementing CRUD Operations for Lists & List Items using .Net Core
-- PnP/PnPjs Overview & CRUD Operations
-- Introduction to Microsoft Graph, Webhooks & Connectors
+-   Introduction to SharePoint Object Hierarchy
+-   PnP Core SDK vs REST vs PnP JavaScript
+-   SharePoint REST Api V1 & V2 Getting Started
+-   Implementing CRUD Operation using REST for List & List Items
+-   OData Queries and Expanding
+-   PnP/PnPjs Overview & CRUD Operations
+-   Introduction to PnP Core SDK for .NET
+-   .NET Core QuickStart
+-   Implementing CRUD Operations for Lists & List Items using PnP Core SDK
+-   Expanding Complex Objects like Managed Metadata, Lookups, User
+
+## Introduction to Microsoft Graph & Graph Toolkit
+
+-  Introduction to Microsoft Graph
+-  Managing Events, Calendar, Mail using Graph
+-  Using Graph's SharePoint Rest Api V2
+-  Introduction to the MS Graph Toolkit
+
+## Azure Hosted Apps, Remote Event Handling & Remote Timer Jobs
+
+-   Introduction to Azure App Services
+-   Implementing External Apps using React and MS Graph Toolkit
+-   SharePoint Remote Event Handling Patterns
+-   Introduction to Azure Functions
+-   SharePoint Webhooks using Azure Functions
+-   Implementing Remote Event Receivers using Azure Functions
+-   Collecting SharePoint List Notifications using Azure Event Grid
 
 ## Customizing & Enhancing the User-Interface
 
-- Customize Modern UI & Modern Themes
-- Understanding & Using Flexbox
-- Introduction to Fluid UI
+-   Customize Modern UI & Modern Themes
+-   Site Designs
+-   List & View Formatting
+-   Using Site Scripts
 
-## Introduction to React and using SPA Frameworks in M365 Development
+## Indroduction to .Net Core
 
-- Introduction to React
-- Use Cases for React in SharePoint Development
-- Understanding React Basics in a Standalone App
-- Using Context to share Data between Components
-- Using Fluid UI React Controls
-- Introduction to React Testing using Jest
-- Using Angular as Microsoft 365 External SPA
+- .Net Core Overview
+- Dependency Injection and Configuration
+- Implementing API Controllers
+- M365 related Libraries for .Net Core
 
 ## SharePoint Framework Basics (SPFx)
 
-- SharePoint Framework SPFx Overview
-- When to use SPFx / When to use other Patterns
-- Implementing SharePoint Framework Web Parts
-- Exposing Properties & Data Access
-- Introduction to SharePoint Framework Extension
+-   SharePoint Framework SPFx Overview
+-   When to use SPFx / When to use other Patterns
+-   Implementing SharePoint Framework Web Parts
+-   SharePoint Framework Data Acsess using REST ans PnPJS
+-   Introduction to SharePoint Framework Extension
 
-## Teams & Office Add-In Basics
+## Introduction to Teams Development
 
-- Microsoft Teams Introduction
-- Overview Teams Extension Options
-- SPFx & External SPAs as Teams Tabs
-- Office Add-In Introduction
-- Scaffolding & Implementing an Outlook React Add-In
+-   Microsoft Teams Introduction
+-   Overview Teams Extension Options
+-   Using Graph's SharePoint Rest Api V2
+-   Introduction to Microsoft Teams Toolkit v2
 
-## Provisioning & Microsoft 365 DevOps
+## SharePoint Site Provisioning 
 
-- Introduction to SharePoint & Teams Provisioning
-- Deployment Options for SPFx, Teams & Single Page Applications
-- Introduction to DevOps using Microsoft 365 CLI
-- Building & Deploying a SPFx Teams Tab using Azure DevOps
+-   Using the PnP Framework for Provisioning
+-   Provisioning SharePoint Sites using Site Designs & Scripts
+
+## Microsoft 365 DevOps
+
+-   Microsoft 365 DevOps Overview
+-   Using the Microsoft 365 CLI
+-   Azure DevOps Pipelines Quickstart
+-   Introduction to Yaml
+-   Deployment Options for SPFx & Azure Hosted SharePoint Apps
+-   Building & Deploying SharePoint Framework (SPFx) Extensions
+-   Building & Deploying Teams Azure Hosted SharePoint Apps
+-   Building & Deploying Azure Functions
 
 ## No-Code-Solutions using Microsoft Power Platform
 
-- The Power Platform
-- Introduction to Microsoft Power Apps
-- Introduction to Microsoft Flow
+-   The Power Platform
+-   Introduction to Microsoft Power Apps
+-   Introduction to Microsoft Flow
